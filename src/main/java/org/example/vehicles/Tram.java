@@ -1,7 +1,7 @@
 package org.example.vehicles;
 
-public class Trams extends Vehicle{
-    public Trams(String licencePlate, int maxCapacity, int lastServicedate) {
+public class Tram extends Vehicle{
+    public Tram(String licencePlate, int maxCapacity, int lastServicedate) {
         super(licencePlate, maxCapacity, lastServicedate);
         this.fuelType = FuelType.electric;
     }

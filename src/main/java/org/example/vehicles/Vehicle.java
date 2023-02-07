@@ -9,6 +9,7 @@ public abstract class Vehicle {
     protected String licencePlate;
     protected int maxCapacity;
     protected VehicleStatus status;
+    protected int lastServicedate;
     protected FuelType fuelType;
 
     public Vehicle(String licencePlate, int maxCapacity, int lastServicedate) {
@@ -26,6 +27,9 @@ public abstract class Vehicle {
         }
 
     }
-    protected int lastServicedate;
+    public FuelType getFuelType() {
+        return fuelType;
+    }
+
 
 }
