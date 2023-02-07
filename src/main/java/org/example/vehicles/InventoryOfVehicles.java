@@ -1,3 +1,5 @@
+package org.example.vehicles;
+
 import java.util.ArrayList;
 
 public class InventoryOfVehicles {
